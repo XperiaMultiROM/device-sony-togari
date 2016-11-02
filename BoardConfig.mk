@@ -18,3 +18,7 @@ TARGET_BOOTLOADER_BOARD_NAME := C6833
 
 BOARD_KERNEL_CMDLINE += androidboot.hardware=togari
 BOARD_KERNEL_CMDLINE += mem=1759M
+
+# Multirom
+MR_DEVICE_VARIANTS := togari
+
